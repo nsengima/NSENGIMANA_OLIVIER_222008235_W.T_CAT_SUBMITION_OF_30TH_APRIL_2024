@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <!-- Bootstrap CSS link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center"><u>STOCK FORM</u></h1>
+        <form action="stock table.php" method="POST">
+            <div class="form-group">
+                <label for="stock_id"> STOCK ID</label>
+                <input type="number" class="form-control" name="sid" uid="sid">
+            </div>
+            <div class="form-group">
+                <label for="item_name">ITEM NAME</label>
+                <input type="text" class="form-control" name="item_name" id="item_name">
+            </div>
+            <div class="form-group">
+                <label for="quantity_available">QUANTITY AVAILABLE</label>
+                <input type="text" class="form-control" name="quantity_available" id="quantity_available">
+            </div>
+            <div class="form-group">
+                <label for="price">PRICE</label>
+                <input type="number" class="amt" name="amt" id="amount">
+            </div>
+            <div class="form-group">
+                <label for="time_in_stock">ARRIVED TIME</label>
+                <input type="date" class="form-control" name="time_in_stock" id="time_in_stock">
+            </div>
+            <div class="form-group">
+                <label for="order_id">ORDER ID</label>
+                <input type="number" class="form-control" name="order_id" id="order_id">
+            </div>
+            <div class="form-group">
+                <label for="payment_id">PAYMENT ID</label>
+                <input type="number" class="form-control" name="P_id" id="P_id">
+            </div>
+            
+            <button type="submit" class="btn btn-primary">INSERT</button>
+        </form>
+        <form action="home.html">
+            <button type="submit" class="btn btn-secondary">BACK TO HOME</button>
+        </form>
+    </div>
+    <footer class="text-center mt-5"><!-- Footer section -->
+        <p>&copy; &reg; 2024 UR CBE BIT YEAR 2 @ Group A</p><!-- Copyright and trademark notice -->
+    </footer><!-- Footer section -->
+
+    <!-- Bootstrap JS dependencies -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
